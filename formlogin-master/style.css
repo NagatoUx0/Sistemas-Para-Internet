@@ -1,0 +1,74 @@
+
+.container {
+  width: 35%;
+  margin-top: 10%;
+  background: #f7f7f7;
+}
+
+.container2{
+
+  padding-bottom: 5px;
+  padding-top: 0px;
+  margin-left: 10%;
+}
+
+.btn {
+
+  width: 90%;
+
+}
+.form-group {
+
+  width: 80%;
+  height: 80%;
+  
+}
+
+
+h1 {
+
+  text-align: center;
+  color: #066a75;
+  padding-bottom: px;
+  padding-top: 10px;
+
+}
+
+
+
+
+.borda {
+  margin-left: 17%;
+  text-align: center;
+  width: 70%;
+  border: 1px solid #109ead;
+  margin-bottom: 20px;
+}
+
+.container-inline {
+  
+ 
+  background: rgb(220, 236, 236);
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 60px;
+  margin-top: 15px;
+  border: 1px solid rgb(201, 204, 204);
+  margin-bottom: 2px;
+}
+
+p {
+
+  margin-right: 5px;
+  margin-top: 15px;
+  text-align: right;
+
+}
+
+.cadastra {
+
+  background: #fff;
+  border-radius: 3px;
+  color: rgb(15, 54, 231);
+  font-weight: bolder;
+}
