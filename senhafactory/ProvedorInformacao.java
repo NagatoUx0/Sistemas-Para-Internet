@@ -1,1 +1,23 @@
-package senhafactory;import java.io.File;import java.io.FileNotFoundException;import java.util.Scanner;/** * @author 		Ermerson Rafael - 816122707 * @category	Aplicações e Serviços * @since		21/02/2018 * @version		v1.0.0.4 */public abstract class ProvedorInformacao {	protected abstract String recuperarInformacao();	public void exibirInformacao() {		System.out.println(recuperarInformacao());	}	protected Scanner criarScanner(File arquivo) {		try {			return new Scanner(arquivo);		} catch (FileNotFoundException e) {			System.out.println("Arquivo não encontrado: " + arquivo.getPath());			System.exit(1);		}		return null;	}}
+package senhafactory;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public abstract class ProvedorInformacao {
+	protected abstract String recuperarInformacao();
+
+	public void exibirInformacao() {
+		System.out.println(recuperarInformacao());
+	}
+
+	protected Scanner criarScanner(File arquivo) {
+		try {
+			return new Scanner(arquivo);
+		} catch (FileNotFoundException e) {
+			System.out.println("Arquivo nÃ£o encontrado: " + arquivo.getPath());
+			System.exit(1);
+		}
+		return null;
+	}
+}
