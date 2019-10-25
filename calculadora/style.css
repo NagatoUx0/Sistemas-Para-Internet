@@ -1,0 +1,80 @@
+	form{
+    margin-top: 150px;
+		background-color:rgb(34, 37, 37);
+    width: 270px;
+    padding-top: 10px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+
+	}
+
+	input[type="text"]{
+
+		background:rgb(244, 255, 203);
+
+		border-radius:1px solid black;
+
+		width:250px;
+
+		height: 40px;
+
+		font-size: 25px;
+
+		color: rgb(228, 28, 28);
+
+		margin-bottom: 5px;
+
+    text-align: right;
+
+    font-weight: bold;
+
+	}
+
+	input[type="button"]{
+
+		width:60px;
+    
+    border-radius:6px;
+
+		height: 40px;
+
+		color: white;
+
+		background-color:rgb(184, 65, 28);
+
+		font-size: 18px;
+
+		font-weight: bold;
+
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+		margin-bottom: 5px;
+
+        }
+
+	body{
+
+		background: url('https://images6.alphacoders.com/774/774373.jpg') no-repeat;
+
+	}
+
+  #igual{
+
+    width: 252px;
+
+  }
+
+  #tela{
+
+    margin-bottom: 30px;
+
+  }
+
+  p{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 10px;
+      color: white;
+      text-align: left;
+      margin-left: 10px;
+
+  }
